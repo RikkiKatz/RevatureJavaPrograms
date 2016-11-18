@@ -1,0 +1,17 @@
+package com.rikki.string;
+
+public class StringClass {
+
+	String word = "Stringy";
+	String word2 = "Stringy";
+	
+	public void main() {
+		word2 = "Hello";
+		word= "String";
+	}
+	public static void main(String[] args) {
+		
+		System.out.println(word+word2);
+		
+	}
+}

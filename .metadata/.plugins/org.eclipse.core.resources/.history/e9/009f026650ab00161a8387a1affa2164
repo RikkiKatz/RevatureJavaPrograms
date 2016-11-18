@@ -1,0 +1,17 @@
+package com.rikki.oop;
+
+/**
+ * Abstract Class
+ * @author Rikki
+ *
+ */
+
+public abstract class Vehicle {
+
+	public void drive(){
+		//complicated method that will be reused
+	}
+	
+	public abstract void turnOn();
+	
+}

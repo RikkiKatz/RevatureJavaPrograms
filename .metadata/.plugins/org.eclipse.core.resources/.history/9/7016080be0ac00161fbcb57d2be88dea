@@ -1,0 +1,18 @@
+package com.rikki.exceptions;
+
+public class RunTimeExamples {
+
+	static Door door = new Door();
+	
+	public static void main(String[] args) {
+		if(door != null)	//null check
+			door.close();
+	}
+	
+}
+
+class Door{
+	public void close(){
+		System.out.println("Closing door..");
+	}
+}

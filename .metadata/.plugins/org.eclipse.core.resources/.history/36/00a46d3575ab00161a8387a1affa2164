@@ -1,0 +1,8 @@
+package com.rikki.oop;
+
+public class Coupling {
+
+	public static void main(String[] args) {
+		FileAccessObject obj = new FileAccessObject();
+	}
+}

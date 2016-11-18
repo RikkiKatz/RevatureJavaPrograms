@@ -1,0 +1,21 @@
+package com.rikki.collections;
+
+import java.util.HashSet;
+
+public class TraineeManagement {
+
+	public static void main(String[] args) {
+		Trainee a = new Trainee(1, "Dan Pickles", "IT");
+		Trainee b = new Trainee(1, "Dan Pickles", "IT");
+		
+		System.out.println(a==b);
+		
+		HashSet<Trainee> set = new HashSet<Trainee>();
+		set.add(a); set.add(b);
+		
+		for(Trainee t : set){
+			System.out.println(t.getName());
+		}
+	}
+	
+}

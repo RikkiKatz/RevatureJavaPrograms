@@ -1,0 +1,24 @@
+package com.rikki.game;
+
+import java.io.File;
+import java.io.PrintWriter;
+
+/**
+ * Data Access Object will perform CRUD (create, read, update, delete)
+ * operations on hero data using text files.
+ * 
+ * @author Rikki
+ *
+ */
+public class HeroDAO {
+	
+	/**
+	 * Save hero into Comma-separated value file in the format:
+	 * name,level,hitPoints,manaPoints,experiencePoints,clazz,weapon
+	 */
+	public void createHeroCSV(Hero hero){
+		File file = new File();
+		PrintWriter writer = new PrintWriter(file);
+	}
+	
+}

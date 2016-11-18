@@ -1,0 +1,11 @@
+package com.rikki.oop;
+
+public class Chevy extends Vehicle{
+
+	@Override
+	public void turnOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

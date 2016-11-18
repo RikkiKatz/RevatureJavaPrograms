@@ -1,0 +1,6 @@
+package com.rikki.oop;
+
+public abstract class Chevy extends Vehicle{
+
+
+}

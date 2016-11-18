@@ -1,0 +1,13 @@
+package com.rikki.oop;
+
+/**
+ * Class will work with a single line of data
+ * 
+ * @author Rikki
+ *
+ */
+public interface DataAccessObject {
+
+	public String readData();
+	public void writeData(String data);
+}

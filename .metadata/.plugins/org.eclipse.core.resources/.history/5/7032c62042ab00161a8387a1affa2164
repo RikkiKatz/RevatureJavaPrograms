@@ -1,0 +1,24 @@
+package com.rikki.java;
+
+public class Hello {
+	
+	//variables (state)
+	int i;
+//	String // class -- char[] non-primitive data type
+	boolean b;
+	float f;
+	char c;
+	long l;
+	short s;
+	byte by;
+	String referenceVariable;
+	
+	//methods (behavior)
+	
+	//entry point for your application
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package com.rikki.collections;
+
+public class ComparatorExample {
+
+	public static void main(String[] args) {
+		//nested class reference variable syntax
+		Trainee.TraineeNameComparator object;
+	
+	//instantiation
+	object = new Trainee().new TraineeNameComparator();
+	}
+	
+}

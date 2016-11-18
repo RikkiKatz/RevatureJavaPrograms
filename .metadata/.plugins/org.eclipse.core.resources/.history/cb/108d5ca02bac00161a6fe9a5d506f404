@@ -1,0 +1,14 @@
+package com.rikki.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapExample {
+
+	private Map<String, Trainee> populate(){
+		HashMap<String, Trainee> map = new HashMap<>();
+		map.put("danp", new Trainee(1, "Dan Pickle", "IT"));
+		map.put("rikki", new Trainee(1, "Rikki", "CS"));
+	}
+	
+}

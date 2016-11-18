@@ -1,0 +1,12 @@
+package com.rikki.lang;
+
+public class JavaLang {
+	public static void main(String[] args) {
+		
+		boolean isRunning = false;
+		do {
+			System.out.println("do-while");
+		}while(isRunning);
+		
+	}
+}

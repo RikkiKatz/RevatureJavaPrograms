@@ -1,0 +1,9 @@
+package com.rikki.collections;
+
+public class MapExample {
+
+	private Map<String, Trainee> populate(){
+		
+	}
+	
+}

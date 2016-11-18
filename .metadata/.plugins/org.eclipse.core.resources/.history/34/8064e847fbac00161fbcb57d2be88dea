@@ -1,0 +1,38 @@
+package com.rikki.game;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class HeroSerialization {
+
+	/**
+	 * Serialize hero and save to binary file
+	 * with the name "heroname.ser"
+	 * Java object --> binary data
+	 * @param hero
+	 * @throws IOException 
+	 * @throws FileNotFoundException 
+	 */
+	public void save(Hero hero) throws FileNotFoundException, IOException{
+		// ObjectOutputStream converts Object to bytes
+		// FileOutputStream outputs the bytes to file
+		ObjectOutputStream out = 
+				new ObjectOutputStream(
+						new FileOutputStream(
+								new File(hero.getName()+".ser")));
+		out.writeObject(hero);
+	}
+	
+	/**
+	 * Deserialize hero and load into memeory
+	 * @param hero
+	 * @return
+	 */
+	public Hero load(String hero){
+		return null;
+	}
+	
+}

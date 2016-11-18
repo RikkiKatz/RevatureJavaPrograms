@@ -1,0 +1,20 @@
+package com.rikki.exceptions;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class ExceptionsExample {
+
+	public static void main(String[] args) {
+		
+		try {
+			// code that may throw an exception
+			// writes plain text to a file
+			PrintWriter writer = new PrintWriter("data.txt");	
+		} catch (FileNotFoundException e) {
+			// recovery procedures 
+			e.printStackTrace();
+		}
+	}
+	
+}

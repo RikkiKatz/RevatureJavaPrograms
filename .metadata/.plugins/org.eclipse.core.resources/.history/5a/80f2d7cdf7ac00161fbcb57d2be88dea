@@ -1,0 +1,14 @@
+package com.rikki.game;
+
+public class Game {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+	public static void create() {
+		Hero hero1 = new Hero("Pickles", 20, 55, 70, 1000, "pickle-person", "battle axe");
+		Hero hero2 = new Hero("Jam", 200, 25, 700, 100, "PBJ sammich", "sword of destruciton");
+	}
+}

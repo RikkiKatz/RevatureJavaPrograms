@@ -1,0 +1,17 @@
+package com.rikki.oop;
+
+public class FileAccessObject implements DataAccessObject{
+
+	@Override
+	public String readData() {
+		// reads from a file
+		return null;
+	}
+
+	@Override
+	public void writeData(String data) {
+		// write to a file
+		
+	}
+
+}

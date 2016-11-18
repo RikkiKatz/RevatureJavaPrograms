@@ -1,0 +1,12 @@
+package com.rikki.oop;
+/**
+ * 
+ * @author Rikki
+ *
+ */
+public class JavaBean {
+	private int weight;
+	private String flavor;
+	private String color;
+	private String aroma;
+}

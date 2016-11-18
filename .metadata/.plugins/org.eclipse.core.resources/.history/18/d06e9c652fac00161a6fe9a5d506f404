@@ -1,0 +1,61 @@
+package com.rikki.collections;
+
+import java.util.ArrayList;
+import java.util.List;	//fully-qualified class name
+
+public class ListExample {
+
+	public static void main(String[] args) {
+		
+		List<Student> list = new ListExample().createStudents();
+		
+		//print all students from the list
+		for(Student student: list){
+			System.out.println(student.name);
+		}
+		
+		//get by index
+		System.out.println(list.get(2).name);
+		System.out.println(list.size());
+		list.remove(2);
+		System.out.println(list.get(2).name);
+		System.out.println(list.size());
+
+	}
+	
+	//populate students lists
+	private List<Student> createStudents(){
+		ArrayList<Student> list = new ArrayList<>();
+		Student a = new Student("Andrew Williams");
+		list.add(a);
+		
+		list.add(new Student("Banks"));
+		list.add(new Student("Sam"));
+		list.add(new Student("Osher"));
+		list.add(new Student("Martino"));
+		list.add(new Student("Travis"));
+		
+		return list;
+	}
+	
+}
+
+				//this students is comparable to other students
+class Student implements Comparable<Student>{
+	
+	String name;
+
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+
+	@Override
+	public int compareTo(Student other) {
+		//equal= returns 0
+		//if name goes before = return negative
+		//if name goes after = return positive
+		return this.name.compareTo(other.name);
+	}
+	
+}

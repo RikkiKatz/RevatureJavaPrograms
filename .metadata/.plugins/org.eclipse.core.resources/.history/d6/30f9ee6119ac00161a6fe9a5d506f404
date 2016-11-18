@@ -1,0 +1,10 @@
+package com.rikki.collections;
+
+public class TraineeManagement {
+
+	public static void main(String[] args) {
+		Trainee a = new Trainee(1, "Dan Pickles, "IT");
+	
+	}
+	
+}

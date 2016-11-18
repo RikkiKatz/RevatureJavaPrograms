@@ -1,0 +1,37 @@
+package com.rikki.wrappers;
+
+import java.util.List;
+
+public class WrapperClasses {
+	//char, int, short, byte,  long, double, float, boolean
+	
+	private int[]array;
+	//generics cannot use primitive type
+	//private List<short> shorts;		would not work because short is a primitve type
+	private List<Short> shorts;
+	
+	public static void main(String[] args) {
+		//wrapper classes: Decorator design pattern
+		int value = 100;
+
+		//Pre Java 5		
+		//"boxing" the object
+		Integer wrapper = new Integer(value);
+		
+		//"unboxing"
+		//return whatever the value is as an int
+		int backOut = wrapper.intValue();
+
+		
+		//Autoboxing
+		int variable = 100;
+		Integer wrapped = variable; //autoboxing
+		variable = wrapped;
+		
+		//more autoboxing
+		value = wrapped + wrapper;
+		
+		String input ="9001";
+		int parsedValue = Integer.parseInt(input);
+	}
+}

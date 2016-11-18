@@ -1,0 +1,16 @@
+package com.rikki.multilang;
+
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+public class International {
+
+	public static void main(String[] args) {
+		//bundle of messages.. uses Locale class
+		//
+		Locale locale = Locale.getDefault();
+		ResourceBundle bundle;
+		System.out.println("Enter your name: ");
+	}
+	
+}

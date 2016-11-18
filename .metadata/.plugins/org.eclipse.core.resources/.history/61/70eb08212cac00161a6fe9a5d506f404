@@ -1,0 +1,22 @@
+package com.rikki.collections;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapExample {
+
+	private Map<String, Trainee> populate(){
+		HashMap<String, Trainee> map = new HashMap<>();
+		map.put("danp", new Trainee(1, "Dan Pickle", "IT"));
+		map.put("rikki1", new Trainee(2, "Rikki", "CS"));
+		
+		//overwrites danp entry
+		map.put("danp", new Trainee(1, "Dan Pickle", "Business"));
+		
+		//nothing happens if the key already exists
+		map.put("rikki1", new Trainee());
+				
+		return map;
+	}
+	
+}

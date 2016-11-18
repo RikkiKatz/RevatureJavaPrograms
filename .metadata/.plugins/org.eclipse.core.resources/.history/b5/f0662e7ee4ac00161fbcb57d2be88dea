@@ -1,0 +1,9 @@
+package com.rikki.trash;
+
+public class GCExample {
+
+}
+
+class House{
+	boolean lightsOn;
+}

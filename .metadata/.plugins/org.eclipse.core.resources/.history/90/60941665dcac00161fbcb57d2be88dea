@@ -1,0 +1,9 @@
+package com.rikki.exceptions;
+
+public class BankingApplication {
+	
+	public void withdraw(double funds) throws InsufficientFundsException{
+		System.out.println("Withdrawing $" + funds);
+	}
+	
+}

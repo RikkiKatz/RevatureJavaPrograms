@@ -1,0 +1,17 @@
+package com.rikki.exceptions;
+
+public class RunTimeExamples {
+
+	static Door door;
+	
+	public static void main(String[] args) {
+		door.close();
+	}
+	
+}
+
+class Door{
+	public void close(){
+		
+	}
+}

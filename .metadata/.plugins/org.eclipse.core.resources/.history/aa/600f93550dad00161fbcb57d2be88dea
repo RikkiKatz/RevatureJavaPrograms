@@ -1,0 +1,25 @@
+package com.rikki.multilang;
+
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+public class International {
+
+	public static void main(String[] args) {
+	
+		Locale.setDefault(Locale.UK);
+		
+		//bundle of messages.. uses Locale class
+		/*
+		 * basename --> name of properties file for messages
+		 * messages.properties (default)
+		 * messages_en.properties (default for English)
+		 * messages_en_US.properties (default for US English)
+		 * messages_es_MX.properties
+		 */
+
+		ResourceBundle bundle = ResourceBundle.getBundle("messages");
+		System.out.println(bundle.getString("enter"));
+	}
+	
+}

@@ -1,0 +1,8 @@
+package com.rikki.collections;
+
+public class Trainee {
+
+	int id;
+	String name;
+	String major;
+}

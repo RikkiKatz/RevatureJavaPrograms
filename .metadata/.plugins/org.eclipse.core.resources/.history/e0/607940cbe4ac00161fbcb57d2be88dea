@@ -1,0 +1,22 @@
+package com.rikki.trash;
+
+public class GCExample {
+
+}
+
+class House{
+	boolean lightsOn;
+	
+	protected void finalize() throws Throwable{
+		//last check for cleanup
+		for(; ;) System.out.println("Trash");
+		
+//		if(lightsOn)
+//			lightsOn= false;	// turn off
+		/*
+		 * Pseudo-syntax:
+		 * 
+		 * if(database.isConnected()) dataBase.close();
+		 */
+	}
+}

@@ -1,0 +1,20 @@
+package com.rikki.oop;
+
+/**
+ * Abstraction:
+ *  Used in conjunction with inheritance 
+ *   because can't be used otherwise
+ * 
+ * @author Rikki
+ *
+ */
+
+public abstract class Vehicle {
+
+	public void drive(){
+		//complicated method that will be reused
+	}
+	
+	public abstract void turnOn();
+	
+}

@@ -1,0 +1,7 @@
+package com.rikki.oop;
+
+public class Animal {
+
+	String name;
+	
+}

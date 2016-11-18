@@ -1,0 +1,16 @@
+package com.rikki.oop;
+
+public class DatabaseAccess implements DataAccessObject{
+	@Override
+	public String readData() {
+		// reads from a file
+		System.out.println("reading from a file");
+		return "data";
+	}
+
+	@Override
+	public void writeData(String data) {
+		// write to a file
+		System.out.println("writing to a file");
+	}
+}

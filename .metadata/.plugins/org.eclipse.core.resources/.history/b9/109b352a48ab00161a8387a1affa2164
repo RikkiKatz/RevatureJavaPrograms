@@ -1,0 +1,10 @@
+package com.rikki.java;
+
+public class Objects {
+
+	public void run(){
+		int[] intArray = new int[5];	//needs to know how much memory to allocate
+		int[] diff = {1,2,3,4,5};		//initialize with values
+	}
+	
+}

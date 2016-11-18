@@ -1,0 +1,22 @@
+package com.rikki.threads;
+
+public class Waiting {
+	
+	int accountBalance = 1_000;
+
+	public static void main(String[] args) {
+		// anonymous class
+		Thread thread = 
+				new Thread(new Runnable(){
+					//class body, can have methods and instance variables
+					int v = 0;
+					public void go(){}
+					
+					@Override
+					public void run() {
+						
+					}
+				});
+	}
+	
+}

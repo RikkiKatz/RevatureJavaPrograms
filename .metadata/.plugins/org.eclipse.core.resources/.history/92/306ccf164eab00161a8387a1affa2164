@@ -1,0 +1,8 @@
+package com.rikki.oop;
+
+public class Feline extends Animal{
+
+	public Feline(){
+		eat();
+	}
+}

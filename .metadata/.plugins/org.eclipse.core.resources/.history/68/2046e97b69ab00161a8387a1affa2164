@@ -1,0 +1,8 @@
+package com.rikki.string;
+
+public class StringClass {
+
+	String word = "Stringy";
+	String word2 = "Stringy";
+	
+}

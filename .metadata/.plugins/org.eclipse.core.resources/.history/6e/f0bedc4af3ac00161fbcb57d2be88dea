@@ -1,0 +1,11 @@
+package com.rikki.game;
+
+public class Hero {
+
+	private String name;
+	private int level;
+	private int hp;
+	private int exp;
+	private String clazz;
+	
+}

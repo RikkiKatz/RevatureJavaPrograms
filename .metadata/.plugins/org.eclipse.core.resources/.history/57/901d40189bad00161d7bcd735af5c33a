@@ -1,0 +1,22 @@
+package com.rikki.threads;
+
+public class BasicThreads {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}
+
+class Job implements Runnable{
+
+	@Override
+	public void run() {
+		for(; ;) System.out.println("Job is still runinng..");
+		
+	}
+}
+
+class Work extends Thread{
+	
+}

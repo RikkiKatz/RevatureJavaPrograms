@@ -1,0 +1,28 @@
+package com.rikki.threads;
+
+public class BasicThreads {
+
+	public static void main(String[] args) {
+		// create 2 threads
+		// implements runnable? pass to Thread()
+		Thread job = new Thread(new Job());
+	}
+	
+}
+
+class Job implements Runnable{
+
+	@Override
+	// what happens when we start the thread
+	public void run() {
+		for(; ;) System.out.println("Job is  running..");
+		
+	}
+}
+
+class Work extends Thread{
+	@Override
+	public void run() {
+		while(true) System.out.println("Work is running..");
+	}
+}

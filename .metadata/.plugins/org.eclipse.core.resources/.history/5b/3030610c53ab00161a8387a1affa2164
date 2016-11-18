@@ -1,0 +1,30 @@
+package com.rikki.oop;
+
+public class Polymorphism {
+
+}
+
+class Creature{
+	public void Sound(){
+		System.out.println("Roar");
+	}
+}
+
+class Pig extends Creature{
+	public void Sound() {		//exact same signature as method as parent class method
+		System.out.println("Oink");
+	}
+	
+	//Overloading
+	//same name as method in same class but dif params
+	public void sound(String soundToMake){
+		
+	}
+}
+
+class Cow extends Creature{
+	@Override
+	public void Sound() {
+		System.out.println("Moo");
+	}
+}

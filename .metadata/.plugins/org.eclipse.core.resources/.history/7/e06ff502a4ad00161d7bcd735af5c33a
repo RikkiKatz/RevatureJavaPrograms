@@ -1,0 +1,10 @@
+package com.rikki.threads;
+
+public class Waiting {
+
+	public static void main(String[] args) {
+		// anonymous class
+		
+	}
+	
+}

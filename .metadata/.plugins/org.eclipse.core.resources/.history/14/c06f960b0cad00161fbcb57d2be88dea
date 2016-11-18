@@ -1,0 +1,9 @@
+package com.rikki.multilang;
+
+public class International {
+
+	public static void main(String[] args) {
+		System.out.println("Enter your name: ");
+	}
+	
+}

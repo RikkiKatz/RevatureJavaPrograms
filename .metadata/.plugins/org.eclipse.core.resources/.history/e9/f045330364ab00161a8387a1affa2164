@@ -1,0 +1,21 @@
+package com.rikki.lang;
+
+public class JavaLang {
+	public static void main(String[] args) {
+		
+		boolean isRunning = false;
+		//must execute at least once
+		do {
+			System.out.println("do-while");
+		}while(isRunning);
+		
+		int[] array = {0, 1, 2, 3, 4, 5};
+		for(int index =0; index < array.length; index++){
+			System.out.println(array[index]);
+			int count =0;
+			count+=array[index];
+			System.out.println(count);
+		}
+		
+	}
+}

@@ -1,0 +1,15 @@
+package com.rikki.java;
+
+public class Objects {
+
+	public static void run(){
+		int[] intArray = new int[5];	//needs to know how much memory to allocate
+		System.out.println(intArray[0]);
+		int[] diff = {1,2,3,4,5};		//initialize with values
+	}
+	
+	public static void main(String[] args) {
+		run();
+	}
+	
+}

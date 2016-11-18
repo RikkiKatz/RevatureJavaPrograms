@@ -1,0 +1,11 @@
+package com.rikki.oop;
+
+public abstract class Chevy extends Vehicle{
+
+	@Override
+	public void turnOn() {
+		// turn car on
+		
+	}
+
+}

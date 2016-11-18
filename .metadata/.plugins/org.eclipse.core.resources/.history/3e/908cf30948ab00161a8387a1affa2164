@@ -1,0 +1,9 @@
+package com.rikki.java;
+
+public class Objects {
+
+	public void run(){
+		int[] intArray = new int[5];	//needs to know how much memory to allocate
+	}
+	
+}

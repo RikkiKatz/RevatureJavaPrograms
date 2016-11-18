@@ -1,0 +1,14 @@
+package com.rikki.java;
+
+public class Hello {
+	
+	//variables (state)
+	//methods (behavior)
+	
+	//entry point for your application
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+	
+	
+}

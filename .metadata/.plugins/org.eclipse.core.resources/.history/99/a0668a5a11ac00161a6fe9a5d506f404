@@ -1,0 +1,43 @@
+package com.rikki.collections;
+
+import java.util.ArrayList;
+import java.util.List;	//fully-qualified class name
+
+public class ListExample {
+
+	public static void main(String[] args) {
+		
+		List<Student> list = new ListExample().createStudents();
+		
+		for(Student student: list){
+			System.out.println(student.name);
+		}
+	}
+	
+	private List<Student> createStudents(){
+		ArrayList<Student> list = new ArrayList<>();
+		Student a = new Student("Andrew Williams");
+		list.add(a);
+		
+		list.add(new Student("Banks"));
+		list.add(new Student("Sam"));
+		list.add(new Student("Osher"));
+		list.add(new Student("Martino"));
+		list.add(new Student("Travis"));
+		
+		return list;
+	}
+	
+}
+
+
+class Student{
+	
+	String name;
+
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+	
+}

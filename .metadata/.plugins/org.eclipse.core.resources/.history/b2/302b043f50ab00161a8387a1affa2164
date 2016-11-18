@@ -1,0 +1,9 @@
+package com.rikki.oop;
+
+public class Vehicle {
+
+	public void drive(){
+		//complicated instr
+	}
+	
+}

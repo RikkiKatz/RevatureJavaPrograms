@@ -1,0 +1,16 @@
+package com.rikki.java;
+
+public class Human {	//extends Object (implicitly)
+
+	int age;
+	String name;
+	String birthDate;
+	
+	public Human(int age, String name){
+		this.age = age;			//"this" refers to the variable declared outside the constructor
+	}
+	
+	public static void main(String[] args) {
+		new Human(10, "Dan");
+	}
+}

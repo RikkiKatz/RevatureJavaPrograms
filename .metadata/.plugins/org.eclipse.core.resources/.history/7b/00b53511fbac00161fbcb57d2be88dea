@@ -1,0 +1,30 @@
+package com.rikki.game;
+
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+
+public class HeroSerialization {
+
+	/**
+	 * Serialize hero and save to binary file
+	 * with the name "heroname.ser"
+	 * Java object --> binary data
+	 * @param hero
+	 */
+	public void save(Hero hero){
+		ObjectOutputStream out = 
+				new ObjectOutputStream(
+						new FileOutputStream(
+								new File(hero.getName()+".ser")));
+	}
+	
+	/**
+	 * Deserialize hero and load into memeory
+	 * @param hero
+	 * @return
+	 */
+	public Hero load(String hero){
+		return null;
+	}
+	
+}

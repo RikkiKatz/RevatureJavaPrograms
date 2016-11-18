@@ -1,0 +1,12 @@
+package com.rikki.string;
+
+public class StringClass {
+	
+	public static void main(String[] args) {
+		String word = "Stringy";
+		String word2 = "Stringy";
+				
+		System.out.println(word);
+		System.out.println(word==word2);
+	}
+}

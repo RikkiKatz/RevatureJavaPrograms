@@ -1,0 +1,13 @@
+package com.rikki.exceptions;
+
+public class BankingApplication {
+	
+	double accountBalance = 1000;
+	
+	public void withdraw(double funds) throws InsufficientFundsException{
+		if( funds > accountBalance)
+			throw new InsufficientFundsException();
+		System.out.println("Withdrawing $" + funds);
+	}
+	
+}

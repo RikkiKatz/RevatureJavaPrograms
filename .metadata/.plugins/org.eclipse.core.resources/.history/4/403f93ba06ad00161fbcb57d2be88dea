@@ -1,0 +1,18 @@
+package com.rikki.props;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class PropertiesExample {
+
+	public static void main(String[] args) throws IOException {
+
+		ClassLoader loader = PropertiesExample.class.getClassLoader();
+		InputStream inStream = loader.getResourceAsStream("info.properties");
+		
+		Properties props = new Properties();
+		props.load(inStream);
+	}
+	
+}
